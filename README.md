@@ -9,7 +9,7 @@ Using my environment (path.sh and job_config.sh) should be sufficient to succesf
 
 ### Documentation
 
-Fork and clone this repository in the experiment scripts folder:
+Fork and clone this repository in your folder:
 ```shell
 $ git clone <url_of_this_repository> /path/to/your/SExtract
 ```
