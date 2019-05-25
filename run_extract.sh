@@ -1,5 +1,6 @@
+#!/bin/bash
 
-#sh run_extract.sh erik_p255.scp
+#Usage: sh run_extract.sh erik_p255.scp
 
 scps=$1
 

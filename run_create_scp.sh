@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #wav_path=gpfs/static/tts/users/qhu2/projects/neural_data/VCTK/submit/wavenet/unseen/wavs/
 #out_scp=test.scp
 

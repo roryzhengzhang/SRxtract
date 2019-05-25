@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #wav_path=/gpfs/static/tts/users/qhu2/corpus/p255/ori/erik_p225/
 #out_path=./erik_p255/
 wav_path=$1
