@@ -3,7 +3,7 @@ This repository contains a Scripts to extract speaker embeddings.
 
 ## Installation
 ### If you are on the BFG no installation is required.
-Using my environement (path.sh and job_config.sh) should be sufficient to succesfully run it.
+Using my environment (path.sh and job_config.sh) should be sufficient to succesfully run it.
 
 ## Usage
 
