@@ -1,21 +1,52 @@
-# Speaker Embedding extraction tools (SRxtract)
+# Speaker Recognition extraction tool (SRxtract)
 This repository contains a Scripts to extract speaker embeddings.
 
 ## Installation
-### If you are on the BFG no installation is required.
+
+### If you are planning to run this on SimCloud no installation is required.
+
+Fork and clone this repository in your folder:
+```shell
+$ git clone <url_of_this_repository> /path/to/your/SRxtract
+```
+
+Just run the following to obtain a SimCloud interactive session:
+```shell
+$ ./run_simcloud_intercative.sh
+```
+
+### If you are on the BFG no installation is required (will be deprecated soon).
 Using my environment (path.sh and job_config.sh) should be sufficient to succesfully run it.
 
-## Usage
+
+## Usage for SimCloud
+
+### Documentation
+Once you have obtained a SimCloud session run:
+```shell
+$ cd /bundle
+$ ./run.sh
+```
+
+The output is stored in:
+```shell
+$ /bundle/spk_emb.h5
+```
+
+There is no thorough documentation yet but the usage is really straightforward.
+
+
+## Usage for BFG (will be deprecated soon).
 
 ### Documentation
 
 Fork and clone this repository in your folder:
 ```shell
-$ git clone <url_of_this_repository> /path/to/your/SExtract
+$ git clone <url_of_this_repository> /path/to/your/SRxtract
 ```
 Run it:
 ```shell
-$ cd /pat/to/your/SExtract
+$ cd /pat/to/your/SRxtract
 $ ./run_extract.sh <your_scp_file.scp>
 ```
 
@@ -39,3 +70,5 @@ $ ./run_create_scp.sh <output_converted_path> <your_scp_file.scp>
 
 ### Parallelisation (optional):
 In the case the <your_scp_file.scp> contains more than 500 elements, the tool can be run as a job array in BFG. For this simply set nj in extract_sv.sh
+
+
