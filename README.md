@@ -1,4 +1,4 @@
-# Speaker Embedding extraction tools (SExtract)
+# Speaker Embedding extraction tools (SRxtract)
 This repository contains a Scripts to extract speaker embeddings.
 
 ## Installation
